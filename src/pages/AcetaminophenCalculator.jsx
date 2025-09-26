@@ -5,10 +5,7 @@ export default function AcetaminophenCalculator() {
   const [result, setResult] = useState(null);
  
   const calculateDose = () => {
-    if (!weight || isNaN(weight)) {
-      alert("لطفا وزن کودک را وارد کنید");
-      return;
-    }
+    
     const dropDose = 2 * weight;   // قطره = دو برابر وزن
     const syrupDose = 0.5 * weight; // شربت = نصف وزن
     setResult({ dropDose, syrupDose });

@@ -6,7 +6,7 @@ export default function Diseases() {
   const diseases = [
     {
       id: 1,
-      name: "پنومونی (ذات‌الریه)",
+      name: "پنومونی ",
       description: "عفونت ریه و راه‌های هوایی",
       icon: "🫁",
       color: "from-blue-100 to-cyan-100"
